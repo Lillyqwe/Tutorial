@@ -1,0 +1,135 @@
+html {
+    background-color: bisque;
+}
+
+.header {
+    background-color: white;
+    margin:8px;
+    padding: 8px;
+}
+
+.navigate {
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+.navigate a {
+    float:left;
+    padding:14px 16px;
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}
+
+.navigate a:hover {
+    background-color:black;
+    color:white;
+}
+
+.row::after {
+    content: "";
+    display:table;
+    clear:both;
+}
+
+.card {
+    background-color: white;
+    height:255px;
+}
+.cardb {
+    background-color: white;
+    height: 170px;
+}
+.cardsb {
+    background-color: white;
+    border:dashed 2px grey;
+    height:168px;
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.cards {
+    background-color: azure;
+    border:2px solid black;
+    align-items: center;
+    text-align: center;
+    width:270px;
+    height:255px;
+    margin-bottom:-1px;
+}
+.transition1 {
+    margin-top: 5px;
+    width:20px;
+    height:50px;
+    background-color: red;
+    transition: width 2s;
+}
+.transition1:hover {
+    width:250px;
+}
+.transition2 {
+    width:20px;
+    height:50px;
+    background-color: blue;
+    transition-duration: 2s;
+}
+.transition2:hover {
+    width:250px;
+    background-color: black;
+    transition:ease-in;
+}
+
+
+#cirkled {
+    border-radius: 50%;
+    margin:5px;
+    margin-right:2.5px;
+}
+#rounded {
+    border-radius: 8px;
+    margin: 5px;
+    margin-left:2.5px;
+}
+#polaroid {
+    width:40%;
+    padding: 5px;
+    margin:5px;
+    margin-right:2.5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#transparent {
+    opacity:0.5;
+    margin:5px;
+    margin-left:2.5px;
+}
+
+.leftcolumn {
+    float:left;
+    width:30%;
+}
+
+.rightcolumn {
+    float:right;
+    width:68%;
+}
+
+.leftcolumns {
+    float:left;
+    width:65%;
+}
+
+.rightcolumns {
+    float:right;
+    width:35%;
+}
+
+.rightcard {
+    background-color: wheat;
+}
+.footer {
+    background-color: grey;
+    padding:3px;
+    text-align: center;
+    margin-top:260px;
+    position:bottom;
+}
