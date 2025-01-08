@@ -8,6 +8,9 @@ html {
     padding: 8px;
 }
 
+#giveup {
+    opacity:0%;
+}
 .navigate {
     background-color: antiquewhite;
     overflow: hidden;
@@ -39,13 +42,56 @@ html {
     background-color: white;
     height: 170px;
 }
+
+.cardj {
+    background-color: white;
+    height: 170px;
+    text-align: center;
+}
+
+.leftcolumnj {
+    float:left;
+    width:20%;
+}
+
+.rightcolumnj {
+    float:right;
+    width:78%;
+}
+
 .cardsb {
     background-color: white;
     border:dashed 2px grey;
     height:168px;
-    margin-top: 15px;
-    align-items: center;
+    margin-top: 18px;
+    content: "";
+    clear:both;
     text-align: center;
+}
+
+.cardsbb {
+    background-color: white;
+    border:dashed 2px grey;
+    height:168px;
+    margin-top: 18px;
+    content:"";
+    clear:both;
+    z-index: 0;
+}
+
+
+
+.cardsj {
+    border: dashed 2px grey;
+    width: 45%;
+    float: right;
+    height:168px;
+    margin-top:0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    align-items: center;
+    z-index: 1;
 }
 
 .cards {
@@ -132,4 +178,82 @@ html {
     text-align: center;
     margin-top:260px;
     position:bottom;
+}
+
+.border {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border: 5px solid yellow;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.form {
+    margin-top: -60px;
+    margin-left: -980px;
+}
+.form img{
+    border-radius: 25%;
+    width: 70px;
+    height: 70px;
+}
+
+.transition12 {
+    margin-top: -60px;
+    margin-left: 230px;
+    width:20px;
+    height:50px;
+    background-color: red;
+    transition: width 2s;
+}
+.transition12:hover {
+    width:250px;
+}
+
+.transition22 {
+    margin-left: 470px;
+    margin-top:-50px;
+    width:20px;
+    height:50px;
+    background-color: blue;
+    transition: width 2s;
+}
+.transition22:hover {
+    width:350px;
+    background-color: black;
+    transition:ease-in;
+}
+
+.font {
+    float:left;
+    margin-left:10px;
+}
+
+.color {
+    float:left;
+    margin-left: 70px;
+}
+
+#myDIV {
+    width:20px;
+    height:20px;
+    background:red;
+    position:relative;
+    animation: mymove 1s infinite;
+}
+
+@keyframes mymove {
+    from {left:0px;}
+    to {left:70px;}
+}
+
+@keyframes newmove {
+    from {top:0px;}
+    to {top:70px;}
+}
+
+.ja {
+    float:left;
+    margin-left: 100px;
 }
